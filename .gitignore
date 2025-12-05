@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist/
+build/
+
+# Environment variables (MongoDB Atlas credentials, API keys, etc.)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Testing coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Frontend specific (React)
+frontend/node_modules/
+frontend/build/
+
+# Backend specific
+backend/node_modules/
+backend/dist/
