@@ -1,0 +1,1082 @@
+[
+  {
+    "unit": "Overview of Java",
+    "question": "Which feature allows Java code to run on multiple platforms without recompilation?",
+    "options": [
+      "Just-In-Time Compilation",
+      "Write Once, Run Anywhere via bytecode",
+      "Ahead-of-Time Compilation",
+      "Native Interfaces"
+    ],
+    "answer": "Write Once, Run Anywhere via bytecode",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Java source files (.java) are compiled by which tool to produce .class files?",
+    "options": [
+      "java",
+      "javac",
+      "jre",
+      "jlink"
+    ],
+    "answer": "javac",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Which of the following is NOT commonly listed as a Java buzzword?",
+    "options": [
+      "Secure",
+      "Portable",
+      "Unmanaged",
+      "Robust"
+    ],
+    "answer": "Unmanaged",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Who led the development of Java at Sun Microsystems?",
+    "options": [
+      "James Gosling",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Ken Thompson"
+    ],
+    "answer": "James Gosling",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Which of these best describes Java’s programming paradigm?",
+    "options": [
+      "Purely procedural",
+      "Object-oriented with support for procedural style",
+      "Purely functional",
+      "Logic programming"
+    ],
+    "answer": "Object-oriented with support for procedural style",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "In a typical Java development environment, which pair most directly compile and launch programs?",
+    "options": [
+      "jlink and jpackage",
+      "javac and java",
+      "javadoc and jdeps",
+      "javap and jstat"
+    ],
+    "answer": "javac and java",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "The smallest executable unit produced by the Java compiler is called:",
+    "options": [
+      "Module",
+      "Package",
+      "Class file containing bytecode",
+      "Object file"
+    ],
+    "answer": "Class file containing bytecode",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Which OOP principle focuses on exposing only necessary details and hiding the rest?",
+    "options": [
+      "Inheritance",
+      "Abstraction",
+      "Polymorphism",
+      "Encapsulation"
+    ],
+    "answer": "Abstraction",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "In a minimal Java program, which method serves as the entry point?",
+    "options": [
+      "public void run()",
+      "public static void main(String[] args)",
+      "public int start()",
+      "public static void execute(String[] args)"
+    ],
+    "answer": "public static void main(String[] args)",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Overview of Java",
+    "question": "Which statement about JVM, JRE, and JDK is TRUE?",
+    "options": [
+      "JVM includes JDK and JRE",
+      "JDK = JRE + development tools",
+      "JRE = JDK + JVM",
+      "JDK contains only JVM"
+    ],
+    "answer": "JDK = JRE + development tools",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "How many primitive data types are there in Java?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "What is the size of a char in Java?",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "Platform dependent"
+    ],
+    "answer": "16 bits",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which of the following is a widening primitive conversion?",
+    "options": [
+      "double → float",
+      "int → long",
+      "long → int",
+      "short → byte"
+    ],
+    "answer": "int → long",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "What is the result of the expression (true && false) || (true && true)?",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "answer": "true",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which operator has the highest precedence among the following?",
+    "options": [
+      "*",
+      "++",
+      "&&",
+      "?: (ternary)"
+    ],
+    "answer": "++",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which statement about arrays in Java is TRUE?",
+    "options": [
+      "Arrays have a fixed length once created",
+      "Arrays start at index 1",
+      "Arrays can only store primitives",
+      "Arrays cannot be passed to methods"
+    ],
+    "answer": "Arrays have a fixed length once created",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which of the following literals is valid in Java?",
+    "options": [
+      "int x = 09;",
+      "int x = 0x1F;",
+      "int x = 1__0;",
+      "int x = 10LUL;"
+    ],
+    "answer": "int x = 0x1F;",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "What will be printed by: int x = 5; System.out.println(x++ + ++x);",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "12",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which selection statement allows multi-way branching based on an expression?",
+    "options": [
+      "if-else",
+      "switch",
+      "for",
+      "while"
+    ],
+    "answer": "switch",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Data Types, Operators and Control Statements",
+    "question": "Which statement best describes recursion vs iteration?",
+    "options": [
+      "Recursion uses repeated function calls; iteration uses loops",
+      "Iteration always uses more memory than recursion",
+      "Recursion is always faster",
+      "Iteration cannot simulate recursion"
+    ],
+    "answer": "Recursion uses repeated function calls; iteration uses loops",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which keyword refers to the current object instance?",
+    "options": [
+      "self",
+      "this",
+      "super",
+      "base"
+    ],
+    "answer": "this",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which statement about constructors is TRUE?",
+    "options": [
+      "Constructors can return a value",
+      "A class can have overloaded constructors",
+      "Constructors cannot be overloaded",
+      "Constructors must be private"
+    ],
+    "answer": "A class can have overloaded constructors",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "What is printed? String s = null; System.out.println(s);",
+    "options": [
+      "Empty line",
+      "null",
+      "Compilation error",
+      "NullPointerException"
+    ],
+    "answer": "null",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which access specifier allows visibility within the same package and subclasses in other packages?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default (package-private)"
+    ],
+    "answer": "protected",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Java passes arguments to methods by:",
+    "options": [
+      "Pass-by-reference",
+      "Pass-by-value (including object references)",
+      "Either by reference or by value, depending on type",
+      "Pass-by-name"
+    ],
+    "answer": "Pass-by-value (including object references)",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which modifier makes a field belong to the class rather than instances?",
+    "options": [
+      "final",
+      "static",
+      "transient",
+      "volatile"
+    ],
+    "answer": "static",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which keyword prevents a variable from being reassigned after initialization?",
+    "options": [
+      "const",
+      "immutable",
+      "final",
+      "static"
+    ],
+    "answer": "final",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Which method (historically) could be invoked by GC before object reclamation?",
+    "options": [
+      "dispose()",
+      "finalize()",
+      "clean()",
+      "free()"
+    ],
+    "answer": "finalize()",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "What is true about method overloading?",
+    "options": [
+      "It requires different return types only",
+      "It requires different parameter lists",
+      "It is resolved at runtime",
+      "It cannot include varargs"
+    ],
+    "answer": "It requires different parameter lists",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Classes, Objects and Methods",
+    "question": "Command-line arguments are available in which parameter of main?",
+    "options": [
+      "String args",
+      "String[] args",
+      "List<String> args",
+      "Arguments args"
+    ],
+    "answer": "String[] args",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which keyword is used to create a subclass in Java?",
+    "options": [
+      "inherits",
+      "derives",
+      "extends",
+      "implements"
+    ],
+    "answer": "extends",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which class is the ultimate superclass of all classes in Java?",
+    "options": [
+      "Base",
+      "Root",
+      "Object",
+      "Class"
+    ],
+    "answer": "Object",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which keyword is used to refer to the immediate superclass members?",
+    "options": [
+      "parent",
+      "super",
+      "this",
+      "base"
+    ],
+    "answer": "super",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which statement about method overriding is TRUE?",
+    "options": [
+      "Overridden methods must have the same name, parameters, and compatible return type",
+      "Overridden methods must be static",
+      "Return type must be identical and cannot be covariant",
+      "Access level must be more restrictive"
+    ],
+    "answer": "Overridden methods must have the same name, parameters, and compatible return type",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Dynamic method dispatch in Java means:",
+    "options": [
+      "Method calls are resolved at compile time",
+      "Overloaded methods are chosen at runtime",
+      "Overridden methods are dispatched based on the object’s runtime type",
+      "Static methods are chosen at runtime"
+    ],
+    "answer": "Overridden methods are dispatched based on the object’s runtime type",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which of the following cannot be overridden?",
+    "options": [
+      "public method",
+      "protected method",
+      "final method",
+      "abstract method"
+    ],
+    "answer": "final method",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "What is the order of constructor invocation in an inheritance chain?",
+    "options": [
+      "Subclass first, then superclass",
+      "Superclass first, then subclass",
+      "Random",
+      "Depends on access specifier"
+    ],
+    "answer": "Superclass first, then subclass",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which statement about private members is TRUE?",
+    "options": [
+      "Private members are not inherited",
+      "Private members are inherited but not accessible directly",
+      "Private members can be overridden",
+      "Private members are accessible in subclasses in other packages"
+    ],
+    "answer": "Private members are not inherited",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "An abstract class:",
+    "options": [
+      "Cannot contain concrete methods",
+      "Can be instantiated",
+      "May contain abstract and concrete methods",
+      "Must be final"
+    ],
+    "answer": "May contain abstract and concrete methods",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Inheritance",
+    "question": "Which method is inherited from Object class?",
+    "options": [
+      "compare()",
+      "equals()",
+      "size()",
+      "append()"
+    ],
+    "answer": "equals()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which statement about package declarations is TRUE?",
+    "options": [
+      "A source file can declare multiple packages",
+      "The package statement, if present, must be the first non-comment line",
+      "package must come after imports",
+      "package is optional and cannot be used with classes"
+    ],
+    "answer": "The package statement, if present, must be the first non-comment line",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which import form brings in all public types of a package?",
+    "options": [
+      "import java.util.*;",
+      "import all java.util;",
+      "include java.util",
+      "use java.util.*"
+    ],
+    "answer": "import java.util.*;",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which access modifier provides package-private access in Java?",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "No modifier (default)"
+    ],
+    "answer": "No modifier (default)",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Interfaces can contain which of the following (Java 8+)?",
+    "options": [
+      "Instance fields",
+      "Constructors",
+      "Default and static methods",
+      "Private constructors"
+    ],
+    "answer": "Default and static methods",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "A class can extend one class and:",
+    "options": [
+      "Implement multiple interfaces",
+      "Implement at most one interface",
+      "Extend multiple classes",
+      "Implement zero interfaces only"
+    ],
+    "answer": "Implement multiple interfaces",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which is TRUE about nested interfaces?",
+    "options": [
+      "Interfaces cannot be nested",
+      "Interfaces can be declared inside classes or other interfaces",
+      "Nested interfaces must be private",
+      "Nested interfaces must be static"
+    ],
+    "answer": "Interfaces can be declared inside classes or other interfaces",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which keyword is used to prevent classes in other packages from accessing a member while allowing access within the same package?",
+    "options": [
+      "private",
+      "protected",
+      "default (no modifier)",
+      "final"
+    ],
+    "answer": "default (no modifier)",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which statement about interface inheritance is TRUE?",
+    "options": [
+      "Interfaces cannot extend other interfaces",
+      "An interface can extend multiple interfaces",
+      "An interface can extend classes",
+      "Interfaces cannot be extended if they have default methods"
+    ],
+    "answer": "An interface can extend multiple interfaces",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which import style avoids name clashes by using the fully qualified name?",
+    "options": [
+      "Wildcard import",
+      "Static import",
+      "No import; use fully qualified class name",
+      "Relative import"
+    ],
+    "answer": "No import; use fully qualified class name",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Package and Interfaces",
+    "question": "Which interface feature enables providing a method implementation without breaking existing implementations?",
+    "options": [
+      "Abstract methods",
+      "Default methods",
+      "Static fields",
+      "Multiple inheritance of state"
+    ],
+    "answer": "Default methods",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which class is the direct superclass of all exceptions that can be thrown and caught?",
+    "options": [
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
+    ],
+    "answer": "Throwable",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which block executes whether or not an exception is thrown?",
+    "options": [
+      "try",
+      "catch",
+      "finally",
+      "throw"
+    ],
+    "answer": "finally",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Unchecked exceptions in Java are those that extend:",
+    "options": [
+      "Exception (excluding RuntimeException)",
+      "Throwable directly",
+      "RuntimeException",
+      "Error"
+    ],
+    "answer": "RuntimeException",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which keyword is used to declare that a method might throw a checked exception?",
+    "options": [
+      "throw",
+      "throws",
+      "final",
+      "assert"
+    ],
+    "answer": "throws",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which statement is TRUE about multiple catch blocks?",
+    "options": [
+      "More specific exceptions should come after more general ones",
+      "Order does not matter",
+      "More specific exceptions must come before more general ones",
+      "Only one catch is allowed"
+    ],
+    "answer": "More specific exceptions must come before more general ones",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which method retrieves the underlying cause in a chained exception?",
+    "options": [
+      "getSuppressed()",
+      "getCause()",
+      "initCause()",
+      "fillInStackTrace()"
+    ],
+    "answer": "getCause()",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "What happens if an exception is not caught in any method?",
+    "options": [
+      "Program continues",
+      "The JVM handles it and may terminate the program",
+      "It is silently ignored",
+      "It restarts main"
+    ],
+    "answer": "The JVM handles it and may terminate the program",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which exception is thrown when converting an invalid string to an integer using Integer.parseInt?",
+    "options": [
+      "NumberFormatException",
+      "IllegalArgumentException",
+      "InputMismatchException",
+      "ClassCastException"
+    ],
+    "answer": "NumberFormatException",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which statement about try-with-resources is TRUE?",
+    "options": [
+      "It automatically closes resources that implement AutoCloseable",
+      "It works only with InputStream",
+      "It replaces finally blocks entirely",
+      "It is available since Java 1.1"
+    ],
+    "answer": "It automatically closes resources that implement AutoCloseable",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Exception Handling",
+    "question": "Which keyword is used to explicitly throw an exception?",
+    "options": [
+      "throws",
+      "raise",
+      "throw",
+      "error"
+    ],
+    "answer": "throw",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which method starts a new thread’s execution?",
+    "options": [
+      "run()",
+      "start()",
+      "execute()",
+      "init()"
+    ],
+    "answer": "start()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which interface allows creating a thread without extending Thread?",
+    "options": [
+      "Runnable",
+      "CallableOnly",
+      "Executor",
+      "Future"
+    ],
+    "answer": "Runnable",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which method causes the current thread to pause for a specified time?",
+    "options": [
+      "wait()",
+      "sleep()",
+      "yield()",
+      "notify()"
+    ],
+    "answer": "sleep()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "What is the purpose of join() method on a Thread?",
+    "options": [
+      "To start the thread",
+      "To wait for a thread to finish",
+      "To stop a thread",
+      "To synchronize a thread"
+    ],
+    "answer": "To wait for a thread to finish",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which keyword is used for intrinsic locking to achieve synchronization?",
+    "options": [
+      "locked",
+      "synchronized",
+      "atomic",
+      "volatile"
+    ],
+    "answer": "synchronized",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which methods are used for inter-thread communication on an object's monitor?",
+    "options": [
+      "pause() and resume()",
+      "wait(), notify(), notifyAll()",
+      "sleep() and wake()",
+      "block() and unblock()"
+    ],
+    "answer": "wait(), notify(), notifyAll()",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Thread priorities in Java range from:",
+    "options": [
+      "0 to 9",
+      "1 to 5",
+      "1 to 10",
+      "10 to 100"
+    ],
+    "answer": "1 to 10",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Deprecated thread control methods include:",
+    "options": [
+      "wait() and notify()",
+      "suspend(), resume(), stop()",
+      "sleep() and yield()",
+      "join() and interrupt()"
+    ],
+    "answer": "suspend(), resume(), stop()",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which state is NOT part of a typical thread lifecycle?",
+    "options": [
+      "NEW",
+      "RUNNABLE",
+      "TERMINATED",
+      "EXECUTING"
+    ],
+    "answer": "EXECUTING",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "Multithreaded Programming",
+    "question": "Which keyword ensures a variable’s value is always read from main memory?",
+    "options": [
+      "static",
+      "final",
+      "volatile",
+      "transient"
+    ],
+    "answer": "volatile",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which class is commonly used to print formatted text to a file or console?",
+    "options": [
+      "PrintWriter",
+      "FileWriterOnly",
+      "Console",
+      "FormatterOnly"
+    ],
+    "answer": "PrintWriter",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which pair best describes byte streams vs character streams?",
+    "options": [
+      "InputStream/OutputStream vs Reader/Writer",
+      "Scanner vs BufferedReader",
+      "File vs Directory",
+      "PrintStream vs PrintWriter"
+    ],
+    "answer": "InputStream/OutputStream vs Reader/Writer",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which statement about Scanner is TRUE?",
+    "options": [
+      "Scanner reads character by character only",
+      "Scanner can parse tokens like int and double from input",
+      "Scanner cannot read from files",
+      "Scanner requires GUI"
+    ],
+    "answer": "Scanner can parse tokens like int and double from input",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Applet life cycle begins with which method?",
+    "options": [
+      "start()",
+      "paint()",
+      "init()",
+      "destroy()"
+    ],
+    "answer": "init()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which method of ActionListener handles button click events?",
+    "options": [
+      "onClick()",
+      "actionPerformed(ActionEvent e)",
+      "handle(Action e)",
+      "process(Event e)"
+    ],
+    "answer": "actionPerformed(ActionEvent e)",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "In the delegation event model, a component that generates an event is called the:",
+    "options": [
+      "Listener",
+      "Source",
+      "Handler",
+      "Dispatcher"
+    ],
+    "answer": "Source",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which event class represents keyboard key presses?",
+    "options": [
+      "ActionEvent",
+      "MouseEvent",
+      "KeyEvent",
+      "ItemEvent"
+    ],
+    "answer": "KeyEvent",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which statement about File I/O is TRUE?",
+    "options": [
+      "FileReader is for binary data",
+      "FileInputStream is for byte data",
+      "BufferedReader cannot wrap a FileReader",
+      "PrintWriter cannot write to files"
+    ],
+    "answer": "FileInputStream is for byte data",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which method in an applet is typically used to perform drawing?",
+    "options": [
+      "draw()",
+      "paint(Graphics g)",
+      "render(Graphics g)",
+      "display()"
+    ],
+    "answer": "paint(Graphics g)",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "I/O, Applets and Event Handling",
+    "question": "Which listener interface is used for receiving keyboard events?",
+    "options": [
+      "KeyListener",
+      "ActionListener",
+      "MouseListener",
+      "ItemListener"
+    ],
+    "answer": "KeyListener",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which class represents immutable sequences of characters in Java?",
+    "options": [
+      "String",
+      "StringBuilder",
+      "StringBuffer",
+      "CharArray"
+    ],
+    "answer": "String",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "What does \"hello\".length() return?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "Compilation error"
+    ],
+    "answer": "5",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which method compares two strings for content equality, case-sensitive?",
+    "options": [
+      "equals()",
+      "==",
+      "compareToIgnoreCase()",
+      "matches()"
+    ],
+    "answer": "equals()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which class is unsynchronized and mutable for string manipulation?",
+    "options": [
+      "String",
+      "StringBuffer",
+      "StringBuilder",
+      "StringTokenizer"
+    ],
+    "answer": "StringBuilder",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "String Handling",
+    "question": "What is returned by \"Java\".substring(1, 3)?",
+    "options": [
+      "Ja",
+      "av",
+      "ava",
+      "Jav"
+    ],
+    "answer": "av",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which method returns the index of the first occurrence of a character?",
+    "options": [
+      "charAt()",
+      "indexOf()",
+      "lastIndex()",
+      "find()"
+    ],
+    "answer": "indexOf()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which method converts a string to uppercase using the default locale?",
+    "options": [
+      "toUpper()",
+      "upper()",
+      "toUpperCase()",
+      "caps()"
+    ],
+    "answer": "toUpperCase()",
+    "difficulty": "easy"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which is TRUE about StringBuffer vs StringBuilder?",
+    "options": [
+      "StringBuffer is unsynchronized; StringBuilder is synchronized",
+      "Both are immutable",
+      "StringBuffer is synchronized; StringBuilder is not",
+      "Neither supports append()"
+    ],
+    "answer": "StringBuffer is synchronized; StringBuilder is not",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Which method converts different data types to their string representation?",
+    "options": [
+      "String.valueOf()",
+      "String.toString()",
+      "String.parse()",
+      "String.convert()"
+    ],
+    "answer": "String.valueOf()",
+    "difficulty": "medium"
+  },
+  {
+    "unit": "String Handling",
+    "question": "Given String s = \"Hello\"; what does s.charAt(1) return?",
+    "options": [
+      "H",
+      "e",
+      "l",
+      "o"
+    ],
+    "answer": "e",
+    "difficulty": "easy"
+  }
+]
